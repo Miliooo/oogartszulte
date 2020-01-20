@@ -1,0 +1,383 @@
+{% block html_head_container %}
+  {% include '_html-header.twig' %}
+  {% block head %}{% endblock %}
+
+{% endblock %}
+<body>
+<!--
+<div class="intro">
+
+  <figure class="intro__logo">
+    <img src="/themes/drb/assets/img/main-logo-white.svg" alt="Oogarts dr. Boeckaert" title="Oogarts dr. Boeckaert"/>
+  </figure>
+
+  <h1 class="intro__headline">Oogartsenpraktijk<br />
+Dr. Boeckaert</h1>
+</div>
+-->
+<main role="main" class="main">
+  <header class="header">
+    <nav class="header__nav">
+      <ul>
+        <li class="nav-item">
+          <a data-scrollto="slide-info" data-target="0" href="#" class="nav-slide nav-slide--active">Info</a>
+        </li>
+        <li class="nav-item">
+          <a data-scrollto="slide-practice" data-target="1" href="#" class="nav-slide">Praktijk</a>
+        </li>
+        <li class="nav-item">
+          <a data-scrollto="slide-appointments" data-target="2" href="#" class="nav-slide">Afspraken</a>
+        </li>
+        <li class="nav-item">
+          <a data-scrollto="slide-contact" data-target="3" href="#" class="nav-slide">Contact</a>
+        </li>
+    </nav>
+    <figure class="header__logo">
+      <img src="/assets/img/main-logo.svg" alt="Oogarts dr. Boeckaert" title="Oogarts dr. Boeckaert"/>
+    </figure>
+  </header>
+
+  <div class="content">
+
+    <div class="slide" id="slide-info" style="background-image: url('/uploads/2019/10/OogartsJolienBoeckaert_1PULSARfotografie_WebRes_edit-2_1920x1080_acf_cropped3.jpg');">
+      <div class="info__logo">
+        <figure class="info__logo__graphic">
+          <img src="/assets/img/logo-full.svg" alt="Oogarts dr. Boeckaert" title="Oogarts dr. Boeckaert"/>
+        </figure>
+      </div>
+      <div class="info__image" style="background-image: url('/uploads/2019/10/OogartsJolienBoeckaert_1PULSARfotografie_WebRes_edit-2_1920x1080_acf_cropped3.jpg');">
+
+      </div>
+      <div class="info__content">
+        <ul class="info__nav">
+          <li class="info__nav-item">
+            <a href="#" data-showinfo="info__practice" class="active">De Praktijk</a>
+          </li>
+          <li class="info__nav-item">
+            <a href="#" data-showinfo="info__dr">Dr. Jolien Boeckaert</a>
+          </li>
+        </ul>
+        <p class="info__block info__block--active" id="info__practice">Op 1 september 2019 start dr. Boeckaert een eigen praktijk langs de Grote Steenweg te Olsene. Er is voldoende parkeergelegenheid voor de deur, en ze ligt op 100 meter stappen van een bushalte. Deze praktijk verzorgt patiënten uit Zulte en de wijde omgeving. Dr. Boeckaert is tevens verbonden aan het Onze Lieve Vrouw van Lourdes ziekenhuis te Waregem.
+        </p>
+        <p class="info__block" id="info__dr">Dr. Boeckaert behaalde haar diploma van arts in 2011 aan de Katholieke Universiteit Leuven. In 2015 beëindigde ze haar opleiding als arts-specialist in de oogheelkunde aan het Universitair ziekenhuis van Leuven. In 2013 slaagde zij voor het ICO examen. Na haar opleiding volgde ze een fellowship in het Maxima Medisch Centrum te Eindhoven om zich verder te bekwamen in cataractchirurgie. Ze heeft een bijzondere interesse in medische retina.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide" id="slide-practice">
+      <div class="slider-wrapper">
+
+        <div class="practice-nav-wrapper">
+          <div class="practice__nav">                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_1PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+            </div>                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_12PULSARfotografie_WebRes_1024x660_acf_cropped-1.jpg"/>
+            </div>                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_5PULSARfotografie_WebRes_1024x660_acf_cropped-1.jpg"/>
+            </div>                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_6PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+            </div>                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_22PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+            </div>                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_26PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+            </div>                <div class="practice__nav__slide">
+              <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_32PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+            </div>
+          </div>
+          <div class="practice__nav__controls">
+            <img class="nav-control nav-control--prev" src="/assets/img/chevron-left.svg"/>
+            <img class="nav-control nav-control--next" src="/assets/img/chevron-right.svg"/>
+          </div>
+        </div>
+
+        <div class="practice__slider">              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_1PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+          </div>              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_12PULSARfotografie_WebRes_1024x660_acf_cropped-1.jpg"/>
+          </div>              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_5PULSARfotografie_WebRes_1024x660_acf_cropped-1.jpg"/>
+          </div>              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_6PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+          </div>              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_22PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+          </div>              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_26PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+          </div>              <div class="practice__slider__slide">
+            <img class="slide__image" src="/uploads/2019/10/OogartsJolienBoeckaert_32PULSARfotografie_WebRes_1024x660_acf_cropped.jpg"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide" id="slide-appointments">
+      <div class="align-wrapper">
+        <div class="content-block content-block--consult">
+          <div class="base-content content-block__wrapper">
+            <h3>Raadpleging</h3><p>Raadplegingen zijn enkel op afspraak.</p>
+            <p>Een afspraak kan telefonisch of bij voorkeur online gemaakt worden via onderstaande knop.<br />
+              Gelieve per persoon een afspraak te maken indien u met meerdere wenst te komen.</p>
+
+
+            <p>
+              <a class="btn btn--white" target="_blank" rel="noopener" href="https://uwagenda.myorganizer.online/?VGtkV2FrMHdjSFppUjJ4c1ltcGFXRWxVU1RGamVUQXdaREZHUjFJd2FFZFNSV1JKVGxSS1IxSjZVa2xPVkZKSVUwTkdXazR3ClVUVldiRXBaVFdwRmVrMXFVWFpSUjFKMkNtRXpVbXhqYlVwMldsZE9jbGxYVm5sa1F6VnBXbE01TWs5cVFYWmlSRzk0VERKegpObU5IUmpCTU1sazJZVWhWZGxwcWNHbGtVemx0VDI1YWJFeDNQVDA9">Maak zelf uw afspraak online</a>
+            </p>
+            <p>
+              <a href="#" class="link link--overlay">Extra info voor uw afspraak</a>
+            </p>
+          </div>
+          <div class="info-overlay">
+            <div class="content-block__wrapper">
+              <a class="info-overlay__close" href="#">
+                <img src="/assets/img/close.svg" alt="Close" title="Close"/>
+              </a><h4>Annuleren</h4>
+              <p>Gelieve uw afspraak minstens 1 dag op voorhand te annuleren.</p>
+              <h4>Vervoer</h4>
+              <p>U voorziet best een chauffeur wanneer u komt voor een netvliesonderzoek (vb. in het kader van diabetes). Mogelijks krijgt u pupilverwijdende oogdruppels die uw zicht enkele uren wazig maken.</p>
+              <h4>Bereikbaarheid</h4>
+              <p>U kan parkeren bij de praktijk.<br />
+                De praktijk is vlot bereikbaar via het openbaar vervoer. De bushalte &#8220;overwinning&#8221; ligt vlakbij (bus 75 of belbus 125).</p>
+              <h4>Contactlenzen</h4>
+              <p>Gelieve uw contactlenzen 24 uur op voorhand uit te laten. Breng uw verpakking en onderhoudsproducten mee.</p>
+              <h4>Meebrengen</h4>
+              <p>Uw elektronische identiteitskaart<br />
+                Uw huidige bril(len)<br />
+                Medicatielijst</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="content-block content-block--contact content-block--hours">
+          <div class="content-block__wrapper">
+            <h3>Bij dringende oogproblemen</h3><h4>Weekdagen van 8u tot 18u:</h4>
+            <p><a class="link link--tel" href="tel:09 335 33 04">09 335 33 04</a></p>
+            <h4>Na 18u of in het weekend:</h4>
+            <p>Contacteer de spoedgevallendienst van het Onze Lieve Vrouw van Lourdes ziekenhuis te Waregem (<a class="link link--tel" href="tel:056 62 31 11">056 62 31 11</a>)</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="slide" id="slide-contact">
+
+      <div class="align-wrapper">
+
+        <div class="content-block content-block--contact content-block--contact-info">
+          <div class="content-block__wrapper">
+            <h3>Contact</h3>
+            <p class="contact-data">
+              <a class="link link--tel" href="tel:09 335 33 04">09 335 33 04</a><br>
+              <a class="link" href="mailto:info@oogartszulte.be">info@oogartszulte.be</a>
+            </p>
+
+          </div>
+        </div>
+
+        <div class="content-block content-block--map">
+          <div id="map"></div>
+        </div>
+
+
+      </div>
+
+
+      <div class="content-block content-block--address">
+        <div class="content-block__wrapper">
+          <address>Grote Steenweg 183<br />
+            9870 Olsene
+          </address>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</main>
+
+<script>
+  function initMap() {
+    var olsene = {
+      lat: 50.930450,
+      lng: 3.457610
+    };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: olsene
+    });
+    var marker = new google.maps.Marker({
+      position: olsene,
+      map: map,
+      icon: {
+        url: "https://i.ibb.co/zhcg8QN/map-marker-2x.png",
+        size: new google.maps.Size(32, 32),
+        scaledSize: new google.maps.Size(32, 32)
+      }
+    });
+
+    var styles = [
+      {
+        "featureType": "all",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "weight": "2.00"
+          }
+        ]
+      }, {
+        "featureType": "all",
+        "elementType": "geometry.stroke",
+        "stylers": [
+          {
+            "color": "#9c9c9c"
+          }
+        ]
+      }, {
+        "featureType": "all",
+        "elementType": "labels.text",
+        "stylers": [
+          {
+            "visibility": "on"
+          }
+        ]
+      }, {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+          {
+            "color": "#EAEAEA"
+          }
+        ]
+      }, {
+        "featureType": "landscape",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#EAEAEA"
+          }
+        ]
+      }, {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#EAEAEA"
+          }
+        ]
+      }, {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      }, {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+          {
+            "saturation": -100
+          }, {
+            "lightness": 45
+          }
+        ]
+      }, {
+        "featureType": "road",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#eeeeee"
+          }
+        ]
+      }, {
+        "featureType": "road",
+        "elementType": "labels.text.fill",
+        "stylers": [
+          {
+            "color": "#7b7b7b"
+          }
+        ]
+      }, {
+        "featureType": "road",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          }
+        ]
+      }, {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+          {
+            "visibility": "simplified"
+          }
+        ]
+      }, {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      }, {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+          {
+            "visibility": "off"
+          }
+        ]
+      }, {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+          {
+            "color": "#46bcec"
+          }, {
+            "visibility": "on"
+          }
+        ]
+      }, {
+        "featureType": "water",
+        "elementType": "geometry.fill",
+        "stylers": [
+          {
+            "color": "#c8d7d4"
+          }
+        ]
+      }, {
+        "featureType": "water",
+        "elementType": "labels.text.fill",
+        "stylers": [
+          {
+            "color": "#070707"
+          }
+        ]
+      }, {
+        "featureType": "water",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+          {
+            "color": "#ffffff"
+          }
+        ]
+      }
+    ];
+
+    map.setOptions({styles: styles});
+    map.setOptions({disableDefaultUI: true});
+  }
+</script>
+<script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0Q-h50lulahk95dpKUlnaYuE_MqMEIVY&callback=initMap"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="/js/flickity-mimic.js"></script>
+<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+<script src="/js/main.js?v=20191015"></script>
+</body>
+</html>
